@@ -1,12 +1,14 @@
-name: Deploy Brello to PROD
+name: Run checks for PR
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
 
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
 
     steps:

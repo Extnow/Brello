@@ -121,26 +121,6 @@
   --shadow-xs: 0px 1px 2px rgb(16 24 40 / 5%);
 }
 
-.root {
-  scrollbar-color: var(--color-gray-200) transparent;
-  scrollbar-width: thin;
-}
-
-.root::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-.root::-webkit-scrollbar {
-  width: 4px;
-  height: 4px;
-  border-radius: 10px;
-  background-color: transparent;
-}
-
-.root::-webkit-scrollbar-thumb {
-  background-color: var(--color-gray-200);
-}
-
 /*
   1. Use a more-intuitive box-sizing model.
 */
